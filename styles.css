@@ -31,6 +31,10 @@ a:hover {
     color: white;
 }
 
+.body {
+    position: relative;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -197,6 +201,10 @@ a:hover {
     height: 53px;
     background: #005BB9;
     border-radius: 6px;
+}
+
+.srch_hdn {
+    display: none;
 }
 
 .catalog p {
@@ -709,6 +717,11 @@ a:hover {
     color: #FFFFFF;
 }
 
+.media_menu {
+    display: none;
+    height: 60px;
+}
+
 .buy {
     display: flex;
     justify-content: center;
@@ -1015,6 +1028,8 @@ p.padai {
     line-height: 20px;
     color: #737E9B;
 }
+
+
 
 
 

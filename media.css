@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px){
+    body {
+        overflow-x:hidden;
+    }
     .nav_menu {
         display: none;
     }
@@ -83,6 +86,9 @@
         width: 479px;
         height: 314px;
     }
+    .avt p {
+        margin-left: 19px;
+    }
     .clutch {
         width: 222px;
         height: 188px;
@@ -116,6 +122,9 @@
     .car_item_1_text_small p {
         font-size: 18px;
         line-height: 21px;
+    }
+    .scroll_text p.vryad {
+        margin-bottom: 30px;
     }
     .car_item_1_text_small {
         font-weight: normal;
@@ -171,5 +180,791 @@
     .roll_kart img {
         width: 15px;
         height: 15px;
+    }
+    .scroll_section img {
+        width: 109px;
+        height: 136px;
+    }
+    .scroll_text h3 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .scroll_text p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .go_to {
+        width: 76px;
+        height: 23px;
+    }
+    .scroll_section {
+        width: 292px;
+        height: 149px;
+    }
+    .scrolling_sections {
+        width: 768px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: 39px;
+        column-gap: 10px;
+    }
+    .scroll_pointer_left, .scroll_pointer_right {
+        display: none;
+    }
+    .products_grid {
+        margin-left: 39px;
+        width: 768px;
+    }
+    .frst_btn {
+        width: 201px;
+        height: 49px;
+    }
+    .frst_btn p, .scnd_btn p, .thrd_btn p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .scnd_btn {
+        width: 108px;
+        height: 49px;
+    }
+    .thrd_btn {
+        width: 192px;
+        height: 49px;
+    }
+    .star img {
+        width: 15px;
+        height: 15px;
+    }
+    .star p {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .reviews {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .grid_prod_text h3 {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 47px;
+    }
+    .buy p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .graphics {
+        display: none;
+    }
+    .buy {
+        width: 191px;
+        height: 46px;
+    }
+    .grid_prod_text h5 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .cennik h2 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .cennik h4 {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .sleeve {
+        width: 245px;
+        height: 205px;
+    }
+    .prod_size {
+        width: 245px;
+        height: 205px;
+    }
+    .grid_prods {
+        width: 768px;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .grid_prod {
+        margin-bottom: 30px;
+    }
+    .show_more {
+        width: 184px;
+        height: 46px;
+        margin-bottom: 60px;
+    }
+    .show_more p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .news {
+        width: 768px;
+        margin-left: 39px;
+    }
+    .news p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer {
+        width: 703px;
+        margin-left: -21px;
+        column-gap: 15px;
+    }
+    .footer_section.oct_31 {
+        display: none;
+    }
+    .date_block {
+        width: 89px;
+        height: 20px;
+    }
+    .date_block p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer_section a {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer_section h5 {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .line_line {
+        left: 46px;
+    }
+    .line_round {
+        left: 42px;
+    }
+    .podfooter {
+        height: 614px;
+    }
+    .podfooter_section h3, .contacts h3, .adress h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .podfooter_section p {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+    .adress p, .email a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .return_form h3, .subsription h5, .return_form h4 {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .subsribe {
+        height: 40px;
+        width: 159px;
+    }
+    .subsribe p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .podfooter_section img {
+        width: 100px;
+        height: 39px;
+    }
+    p.padai {
+        margin-top: 15px;
+    }
+    .podfooter_main {
+        width: 768px;
+        margin-left: 20px;
+        margin-right: 10px;
+        flex-wrap: wrap;
+        height: 640px;
+    }
+    .return_form {
+        flex-direction: column;
+    }
+    .return_form h3, .subsription h5 {
+        margin-bottom: 10px;
+    }
+    .return_subscription {
+        display: flex;
+        column-gap: 81px;
+    }
+}
+
+@media screen and  (max-width: 414px){
+    .nav_dropdowns .dropdown {
+        display: none;
+    }
+    .media_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        column-gap: 40px;
+        top: 620px;
+        width: 414px;
+        height: 60px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        background-color: white;
+    }
+    .menu_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_section p {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        color: #0F2438;
+    }
+    .news {
+        margin-left: 387px;
+    }
+    .nav_dropdowns {
+        margin-right: 148px;
+    }
+    .header_top_section.time {
+        display: none;
+    }
+    .header_top_section.location {
+        display: none;
+    }
+    .nav_section, .dropdown button {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .preheader_line {
+        display: none;
+    }
+    .navbar {
+        height: 37px;
+        justify-content: start;
+        padding: 0;
+    }
+    .nav_dropdowns {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .logo {
+        width: 36px;
+        height: 40px;
+    }
+    .section_text h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .logo_text {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .contact_number {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .contact_form {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .whatsapp {
+        width: 180px;
+        height: 25px;
+        margin-left: 220px;
+    }
+    .form-control {
+        width: 297px;
+        height: 34px;
+    }
+    .cabinet {
+        display: none;
+    }
+    .search_button {
+        height: 34px;
+        width: 34px;
+    }
+    .search_button p {
+        display: none;
+    }
+    .srch_hdn {
+        display: block;
+    }
+    .catalog {
+        width: 34px;
+        height: 34px;
+    }
+    .header_bottom {
+        margin-left: 39px;
+    }
+    .rolling_section {
+        flex-direction: column;
+    }
+    .rolling_twist {
+        flex-direction: row;
+        column-gap: 10px;
+        margin-top: 10px;
+    }
+    .carousel.slide{
+        width: 380px;
+        height: 195px;
+    }
+    .car_item_1_text h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .car_item_1_text h4 {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .car_item_1_text_small p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .car_item_1_text_small h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .clutch {
+        width: 147px;
+        height: 125px;
+    }
+    .incart {
+        height: 34px;
+        width: 124px;
+    }
+    .incart p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .incart img {
+        width: 12px;
+        height: 12px;
+    }
+    .rolling_section {
+        margin-left: 123px;
+    }
+    .carousel-indicators .unactive {
+        display: none;
+    }
+    .rolling_small_block {
+        width: 250px;
+        height: 145px;
+    }
+    .akcia p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .rolling_small_block_text h4 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .rolling_small_block_text h5 {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 14px;
+    }
+    .twist p {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        margin-right: 20px;
+    }
+    .rolling_small_block_text h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .roll_kart {
+        width: 32px;
+        height: 32px;
+    }
+    .roll_kart img {
+        width: 12px;
+        height: 12px;
+    }
+    .twister {
+        flex-direction: row;
+        align-items: center;
+    }
+    .scroll_section img {
+        width: 74px;
+        height: 97px;
+    }
+    .scroll_text h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .scroll_text p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .go_to {
+        width: 72px;
+        height: 24px;
+    }
+    .scroll_text p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .scroll_section {
+        width: 250px;
+        height: 126px;
+    }
+    .scrolling_sections {
+        margin-left: 383px;
+    }
+    .frst_btn {
+        width: 150px;
+        height: 36px;
+    }
+    .scnd_btn {
+        width: 65px;
+        height: 36px;
+    }
+    .thrd_btn {
+        width: 140px;
+        height: 36px;
+    }
+    .frst_btn p, .scnd_btn p, .thrd_btn p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .products_grid {
+        width: 414px;
+        margin-left: 32px;
+    }
+    .buttons_group {
+        column-gap: 14px;
+    }
+    .sleeve {
+        width: 149px;
+        height: 127px;
+    }
+    .star img {
+        width: 12px;
+        height: 12px;
+    }
+    .star p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .reviews {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .grid_prod_text h3 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 34px;
+    }
+    .grid_prod_text h4 {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .zapros, .buy p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .buy {
+        width: 110px;
+        height: 35px;
+    }
+    .grid_buy img {
+        width: 15px;
+        height: 15px;
+    }
+    .prod_size {
+        width: 149px;
+        height: 130px;
+    }
+    .grid_prod_text h5 {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .cennik{
+        margin-bottom: 20px;
+    }
+    .cennik h2 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .cennik h4 {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .grid_prods {
+        max-width: 414px;
+        column-gap: 14px;
+    }
+    .show_more {
+        margin-bottom: 50px;
+    }
+    .news p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .date_block {
+        width: 58px;
+        height: 16px;
+    }
+    .date_block p {
+        padding-top: 3px;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .footer_section a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .footer_section h5 {
+        max-width: 380px;
+        margin-bottom: 20px;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .abzac br {
+        display: none;
+    }
+    .footer {
+        width: 414px;
+        flex-direction: column;
+        margin-left: 34px;
+    }
+    .line_round, .line_line {
+        display: none;
+    }
+    .footer_section.oct_31 br{
+        display: none;
+    }
+    .footer_section.oct_31 {
+        display: block;
+    }
+    .podfooter_section h3, .contacts h3, .adress h3 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .podfooter_section p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .podfooter_section img {
+        width: 89px;
+        height: 35px;
+    }
+    .adress p, .email a {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .return_form h3, .subsription h5, .return_form h4 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .form-control.ftr {
+        width: 186px;
+        height: 34px;
+    }
+    .subscription_input {
+        margin-top: 10px;
+    }
+    .subsribe {
+        width: 104px;
+        height: 34px;
+    }
+    .email {
+        margin-bottom: 0;
+    }
+    .subsribe p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .avt p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .podfooter_main {
+        flex-direction: column;
+        flex-wrap: initial;
+        width: 414px;
+        justify-content: start;
+    }
+    .podfooter {
+        height: 1070px;
+        justify-content: start;
+        width: 414px;
+    }
+    .contact_info {
+        flex-direction: column;
+    }
+    .podfooter_section h3, .contacts h3, .adress h3 {
+        margin-top: 10px;
+    }
+    .return_subscription {
+        flex-direction: column;
+    }
+    .img_row {
+        justify-content: start;
+    }
+    @media screen and  (max-width: 320px) {
+        .dropdown button {
+            margin-top: 5px;
+        }
+        .media_menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 1;
+            column-gap: 40px;
+            top: 545px;
+            width: 320px;
+            height: 60px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            background-color: white;
+        }
+        .nav_section {
+            margin-right: 5px;
+        }
+        .header_top_max_width {
+            width: 320px;
+        }
+        .header_top_section.nmbr {
+            right: 15px;
+        }
+        .form-control {
+            width: 203px;
+        }
+        .whatsapp {
+            margin-left: 149px;
+            width: 155px;
+        }
+        .whatsapp img {
+            width: 10px;
+            height: 10px;
+        }
+        .whatsapp p {
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+        }
+        .contact_number {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .logo_text {
+            font-size: 8px;
+            line-height: 10px;
+        }
+        .section_text h3 {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .header_top_section.lgo {
+            margin-left: 15px;
+        }
+        .carousel.slide {
+            width: 285px;
+            height: 195px;
+        }
+        .rolling_section {
+            margin-left: 227px;
+        }
+        .scrolling_sections {
+            margin-left: 488px;
+        }
+        .products_grid {
+            margin-left: 134px;
+        }
+        .frst_btn p, .scnd_btn p, .thrd_btn p {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .frst_btn {
+            width: 124px;
+        }
+        .buttons_group {
+            column-gap: 5px;
+        }
+        .scnd_btn {
+            width: 48px;
+        }
+        .thrd_btn {
+            width: 108px;
+        }
+        .sleeve {
+            width: 138px;
+        }
+        .grid_prod_text h3 {
+            width: 132px;
+        }
+        .grid_prod_text h5 {
+            width: 130px;
+        }
+        .grid_buy {
+            column-gap: 8px;
+        }
+        .show_more {
+            width: 160px;
+        }
+        .news {
+            margin-left: 488px;
+        }
+        .preheader_line {
+            display: none;
+        }
+        .footer {
+            margin-left: 1px;
+            width: 280px;
+        }
+        .podfooter {
+            width: 320px;
+        }
+        .subsribe {
+            width: 96px;
+        }
     }
 }
